@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cookie_type: MyString
+  gluten_free: false
+  price: 1.5
+  monster_id: 
+
+two:
+  cookie_type: MyString
+  gluten_free: false
+  price: 1.5
+  monster_id: 
