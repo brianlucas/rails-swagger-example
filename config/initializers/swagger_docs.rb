@@ -13,7 +13,7 @@ Swagger::Docs::Config.register_apis({
     # the output location where your .json files are written to
     :api_file_path => "public/apidocs",
     # the URL base path to your API
-    :base_path => "http://localhost:3000",
+    :base_path => Rails.env.production? ? "http://stormy-reaches-5136.herokuapp.com" : "http://localhost:3000",
     # if you want to delete all .json files at each generation
     :clean_directory => true
   }
